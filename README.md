@@ -5,7 +5,7 @@ Release is a website that hopes to introduce users to two powerful self-improvem
 
 Release will also provide a great starting point for those that wish to go on and adopt meditation and/or yoga by providing them with useful links and materials that can be accessed by users in their own local areas. Users will also have the option of contacting a member of the Release team, or recieving monthly self-improvement and mindfulness tips through the monthly newsletter.
 
-*screenshots
+[//]: #screenshots
 
 
 #H2 Features
@@ -15,7 +15,19 @@ Release will also provide a great starting point for those that wish to go on an
 
 - Home page
     - Landing page image- the large hero image serves to grab the user's attention and to set the tone of the site. It demonstrates the type of tranquility and peacefulness that can be found when practicing meditation and yoga and inspires the user to attain the same.
-    - Connect section - this section serves to pique the user's curiousity, introduce the user to the two self-improvement techniques focused on in the site and highlight what information they can expect to find in the relevant pages.
+    - Connect section - this section serves to pique the user's curiosity, introduce the user to the two self-improvement techniques focused on in the site and highlight what information they can expect to find in the relevant pages.
     - Newsletter and fig section - this section compliments the rest of the homepage by including a **professional figure TBC** to reassure users that the site is a reliable source of information and there are real proven benefits to the self-improvement menthods included. The image demonstrates the state of mindfulness the user may be hoping to achieve. This section also promotes Release's monthly newsletter and what they can expect from it.
 
+#H2 Testing
+[//]: #fixed bugs
+[//]: #W3C validator- HTML
+[//]: #Jigsaw validator- CSS
+[//]: #Lighthouse
+[//]: #Unfixed bugs
 
+
+#H2 Deployment
+
+#H2 Credits
+- Content
+- Media

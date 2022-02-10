@@ -6,11 +6,47 @@
     border: none;
 }
 
+
 body {
     font-family: "Work Sans", sans-serif;
     font-weight: 300;
 }
 
+/* headings and logo */
+
 h1, h2 {
     font-family: "Epilogue", sans-serif;
+}
+
+
+#logo {
+    font-family: "Work Sans", sans-serif;
+    font-size: 200%;
+    font-style: italic;
+}
+
+/* navigation links */
+
+#menu { font-size: 120%;
+    text-align: center;
+}
+
+#menu, #logo{
+    line-height: 90px;
+}
+
+#menu li {
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px dotted;
 }

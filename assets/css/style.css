@@ -18,26 +18,29 @@ h1, h2 {
     font-family: "Epilogue", sans-serif;
 }
 
+#logo {
+    font-family: "Work Sans", sans-serif;
+    font-size: 160%;
+    font-style: italic;
+}
+
 /* navigation links */
 
 .header { 
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 0 20px;
     text-align: center;
 }
-
-#logo {
-    font-family: "Work Sans", sans-serif;
-    font-size: 180%;
-    font-style: italic;
-}
   
-#menu { font-size: 130%;
+#menu {
+     font-size: 130%;
+     background-color: #f6f4e8;
+     color: #1d3124
 }
 
 #menu, #logo{
-    line-height: 75px;
+    line-height: 85px;
 }
 
 #menu li {
@@ -50,14 +53,14 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px dotted;
+    border-bottom: 2px dotted #1d3124;
 }
 
 #menu h1:hover {
-    border-bottom: 1px dotted;
+    border-bottom: 2px dotted #1d3124;
 }
 
 #sign-up {
-    border: 1px solid black;
+    border: 1px solid #1d3124;
     padding: 10px;
 }

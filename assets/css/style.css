@@ -66,7 +66,7 @@ h1, h2 {
     padding: 10px;
 }
 
-/* Hero image and cover text */
+/* hero image and cover text */
 
 #hero-outer {
     height: 500px;
@@ -119,4 +119,47 @@ animation-fill-mode: backwards;
 #cover-text, #cover-text h2 {
     color: #f6f4e8;
     text-align: center;
+}
+
+/* ways to release section */
+
+#ways-to-release {
+    background-color: #bacec1;
+    height: 500px;
+    width: 100%;
+    color: #1d3124;
+    text-align: center;
+}
+
+#ways-to-release h2 {
+    font-size: 200%;
+    padding: 50px
+}
+
+/* meditation and yoga cards */
+
+.card {
+    font-size: 140%;
+    font-family: Epilogue, sans-serif;
+    background-color: #f6f4e8;
+
+    height: 150px;
+    width: 20%;
+    border: 2px solid #1d3124;
+    border-radius: 15px;
+
+    padding-top: 100px;
+    float: left;
+    margin-left: 10%;
+}
+
+#middle-card {
+    font-family: "Work Sans", sans-serif;
+    font-size: 100%;
+    background-color: #1d3124;
+    color: #f6f4e8;
+}
+
+#newsletter {
+    clear: left;
 }

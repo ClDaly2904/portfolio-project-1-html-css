@@ -180,3 +180,27 @@ animation-fill-mode: backwards;
     clear: left;
 }
 
+#newsletter {
+    background-color: #f6f4e8;
+    height: 400px;
+    width: 100%;
+    color: #1d3124;
+    text-align: center;
+}
+
+.bottom-card {
+    font-size: 140%;
+    font-family: "Work Sans", sans-serif;
+    background-color: #bacec1;
+    text-decoration: none;
+    color: #1d3124;
+
+    height: 150px;
+    width: 20%;
+    border: 2px solid #1d3124;
+    border-radius: 15px;
+
+    padding-top: 100px;
+    float: left;
+    margin-left: 10%;
+}

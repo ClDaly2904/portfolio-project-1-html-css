@@ -22,6 +22,7 @@ header {
     z-index: 3;
 }
 
+
 h1, h2 {
     font-family: "Epilogue", sans-serif;
 }
@@ -151,6 +152,8 @@ animation-fill-mode: backwards;
     font-size: 140%;
     font-family: Epilogue, sans-serif;
     background-color: #f6f4e8;
+    text-decoration: none;
+    color: #1d3124;
 
     height: 150px;
     width: 20%;
@@ -160,6 +163,11 @@ animation-fill-mode: backwards;
     padding-top: 100px;
     float: left;
     margin-left: 10%;
+}
+
+#ways-to-release a:hover {
+    color: #f6f4e8;
+    background-color: #e59560;
 }
 
 #middle-card {

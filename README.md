@@ -21,6 +21,8 @@ Release will also provide a great starting point for those that wish to go on an
 ## Testing
 
 [//]: #fixed bugs
+bugs to fix-
+div: hover was only effecting the span and h3 inside it, not the div itself. Nested whole div inside the anchor element.
 [//]: #W3C validator- HTML
 [//]: #Jigsaw validator- CSS
 [//]: #Lighthouse

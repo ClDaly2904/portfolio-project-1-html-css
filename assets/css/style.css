@@ -182,10 +182,14 @@ animation-fill-mode: backwards;
 
 #newsletter {
     background-color: #f6f4e8;
-    height: 400px;
+    height: 350px;
     width: 100%;
     color: #1d3124;
     text-align: center;
+
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
 }
 
 .bottom-card {
@@ -201,6 +205,4 @@ animation-fill-mode: backwards;
     border-radius: 15px;
 
     padding-top: 100px;
-    float: left;
-    margin-left: 10%;
 }

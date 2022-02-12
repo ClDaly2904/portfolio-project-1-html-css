@@ -37,7 +37,6 @@ h1, h2 {
 /* navigation links */
 
 .header { 
-    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0 20px;

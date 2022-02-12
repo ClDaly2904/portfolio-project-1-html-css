@@ -21,7 +21,7 @@ Release will also provide a great starting point for those that wish to go on an
 ## Testing
 
 [//]: #fixed bugs
-bugs to fix-
+bugs to fix- header content overflowing header element, getting cut off the page- used git to compare to earlier versions of CSS code. Found the difference in css under .header. The insertion of width 100% here had made the header expand.
 div: hover was only effecting the span and h3 inside it, not the div itself. Nested whole div inside the anchor element.
 [//]: #W3C validator- HTML
 [//]: #Jigsaw validator- CSS

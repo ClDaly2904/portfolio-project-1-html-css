@@ -14,6 +14,14 @@ body {
 
 /* headings and logo */
 
+/* make header stick to top of page */
+header {
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    z-index: 3;
+}
+
 h1, h2 {
     font-family: "Epilogue", sans-serif;
 }
@@ -28,6 +36,7 @@ h1, h2 {
 /* navigation links */
 
 .header { 
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0 20px;
@@ -163,3 +172,4 @@ animation-fill-mode: backwards;
 #newsletter {
     clear: left;
 }
+

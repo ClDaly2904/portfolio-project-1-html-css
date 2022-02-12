@@ -176,11 +176,10 @@ animation-fill-mode: backwards;
     color: #f6f4e8;
 }
 
-#newsletter {
-    clear: left;
-}
+/* newsletter section of index.html */
 
 #newsletter {
+    clear: left;
     background-color: #f6f4e8;
     height: 350px;
     width: 100%;
@@ -193,7 +192,7 @@ animation-fill-mode: backwards;
 }
 
 .bottom-card {
-    font-size: 140%;
+    font-size: 120%;
     font-family: "Work Sans", sans-serif;
     background-color: #bacec1;
     text-decoration: none;
@@ -205,4 +204,17 @@ animation-fill-mode: backwards;
     border-radius: 15px;
 
     padding-top: 100px;
+}
+
+#woods-meditation-img {
+    background-image: url(../images/meditation-woods.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 20%
+}
+
+#newsletter a:hover {
+    color: #f6f4e8;
+    background-color: #e59560;
 }

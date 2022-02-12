@@ -18,6 +18,9 @@ Release will also provide a great starting point for those that wish to go on an
     - Connect section - this section serves to pique the user's curiosity, introduce the user to the two self-improvement techniques focused on in the site and highlight what information they can expect to find in the relevant pages.
     - Newsletter and fig section - this section compliments the rest of the homepage by including a **professional figure TBC** to reassure users that the site is a reliable source of information and there are real proven benefits to the self-improvement menthods included. The image demonstrates the state of mindfulness the user may be hoping to achieve. This section also promotes Release's monthly newsletter and what they can expect from it.
 
+- Future features
+    - Would like to add inspirational quotes layered over existing layout
+
 ## Testing
 
 [//]: #fixed bugs

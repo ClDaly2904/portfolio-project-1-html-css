@@ -175,6 +175,8 @@ animation-fill-mode: backwards;
     margin: auto;
 }
 
+/* sets orange nav hover across site */
+
 #ways-to-release a:hover, #newsletter a:hover {
     color: #f6f4e8;
     background-color: #e59560;

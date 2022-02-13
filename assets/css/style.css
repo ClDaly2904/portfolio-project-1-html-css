@@ -171,9 +171,11 @@ animation-fill-mode: backwards;
 
 #middle-card {
     font-family: "Work Sans", sans-serif;
-    font-size: 100%;
-    background-color: #1d3124;
-    color: #f6f4e8;
+    font-size: 140%;
+    background-color: #bacec1;
+    color: #1d3124;
+    border: none;
+    padding-top: 50px;
 }
 
 /* newsletter section of index.html */
@@ -225,4 +227,13 @@ animation-fill-mode: backwards;
 
     border: 2px solid #1d3124;
     border-radius: 15%;
+}
+
+/* footer */
+
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: red;
 }

@@ -37,4 +37,5 @@ div: hover was only effecting the span and h3 inside it, not the div itself. Nes
 ## Credits
 
 - Content
+    - colourscheme- Shutterstock website https://www.shutterstock.com/blog/color-palettes-for-websites?kw=&c3apidt=71700000083936683&gclsrc=aw.ds&gclid=EAIaIQobChMIp-mb39H19QIVCL_tCh1txAjJEAAYAyAAEgIlwfD_BwE
 - Media

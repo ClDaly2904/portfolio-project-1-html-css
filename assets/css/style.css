@@ -218,3 +218,11 @@ animation-fill-mode: backwards;
     color: #f6f4e8;
     background-color: #e59560;
 }
+
+#correlation-graph {
+    height: 250px;
+    width: 90%;
+
+    border: 2px solid #1d3124;
+    border-radius: 15%;
+}

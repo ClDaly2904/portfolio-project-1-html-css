@@ -148,6 +148,18 @@ animation-fill-mode: backwards;
 
 /* meditation and yoga cards */
 
+.card-wrapper {
+    font-size: 140%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#middle-card {
+    width: 20%;
+    margin: auto;
+}
+
 .card {
     font-size: 140%;
     font-family: Epilogue, sans-serif;
@@ -155,34 +167,22 @@ animation-fill-mode: backwards;
     text-decoration: none;
     color: #1d3124;
 
-    height: 150px;
+    height: 250px;
     width: 20%;
     border: 2px solid #1d3124;
     border-radius: 15px;
 
-    padding-top: 100px;
-    float: left;
-    margin-left: 10%;
+    margin: auto;
 }
 
-#ways-to-release a:hover {
+#ways-to-release a:hover, #newsletter a:hover {
     color: #f6f4e8;
     background-color: #e59560;
-}
-
-#middle-card {
-    font-family: "Work Sans", sans-serif;
-    font-size: 140%;
-    background-color: #bacec1;
-    color: #1d3124;
-    border: none;
-    padding-top: 50px;
 }
 
 /* newsletter section of index.html */
 
 #newsletter {
-    clear: left;
     background-color: #f6f4e8;
     height: 350px;
     width: 100%;
@@ -191,7 +191,10 @@ animation-fill-mode: backwards;
 
     display: flex;
     justify-content: space-evenly;
-    padding-top: 100px;
+}
+
+#newsletter div {
+    margin: auto;
 }
 
 .bottom-card {
@@ -201,25 +204,22 @@ animation-fill-mode: backwards;
     text-decoration: none;
     color: #1d3124;
 
-    height: 150px;
+    height: 250px;
     width: 20%;
     border: 2px solid #1d3124;
     border-radius: 15px;
 
-    padding-top: 100px;
+    margin: auto;
 }
 
 #woods-meditation-img {
     background-image: url(../images/meditation-woods.jpg);
     background-size: cover;
     background-position: center;
-    height: 150px;
-    width: 20%
-}
+    height: 250px;
+    width: 20%;
 
-#newsletter a:hover {
-    color: #f6f4e8;
-    background-color: #e59560;
+    margin: auto;
 }
 
 #correlation-graph {

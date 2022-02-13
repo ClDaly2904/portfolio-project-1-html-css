@@ -97,6 +97,7 @@ animation-fill-mode: backwards;
 }
 
 /* creates level of zoom for hero image */
+
 @keyframes hero-zoom {
     from{
         transform: scale(1.1);
@@ -231,9 +232,29 @@ animation-fill-mode: backwards;
 
 /* footer */
 
-
 .footer {
-    height: 100px;
-    width: 100%;
-    background-color: red;
+    height: 85px;
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: #1d3124;
+    color: #f6f4e8;
+}
+
+.footer p {
+    margin: auto;
+}
+
+.social-networks {
+    text-align: center;
+    margin: auto;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    color: #f6f4e8;
 }

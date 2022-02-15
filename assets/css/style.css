@@ -260,3 +260,44 @@ animation-fill-mode: backwards;
     font-size: 160%;
     color: #f6f4e8;
 }
+
+/* Meditation page */
+
+/*Meditation hero image and cover text*/
+
+#meditation-hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#meditation-hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/woman-meditating.jpeg') no-repeat center 70%;
+}
+
+#meditation-cover-text {
+    font-size: 140%;
+    font-family: Epilogue, sans-serif;
+    letter-spacing: 3px;
+
+    width: 400px;
+    height: 90px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(229, 149, 96, 0.7);
+
+    bottom: 50%;
+    left: 35%;
+    position: absolute;
+    border-radius: 15px;
+}
+
+#meditation-cover-text, #mediation-cover-text h2 {
+color: #f6f4e8;
+text-align: center;
+}

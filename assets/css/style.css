@@ -175,6 +175,11 @@ animation-fill-mode: backwards;
     margin: auto;
 }
 
+.card h3 {
+    padding-top: 25%;
+}
+
+
 /* sets orange nav hover across site */
 
 #ways-to-release a:hover, #newsletter a:hover {
@@ -212,6 +217,10 @@ animation-fill-mode: backwards;
     border-radius: 15px;
 
     margin: auto;
+}
+
+.bottom-card p {
+    padding-top: 25%;
 }
 
 #woods-meditation-img {
@@ -282,15 +291,16 @@ animation-fill-mode: backwards;
 
 #intro-meditation {
     background-color: #bacec1;
-    height: 300px;
+    height: 250px;
     width: 100%;
     color: #1d3124;
-    padding-top: 50px;
+    padding-top: 5%;
 }
 
 .meditation-card {
     height: 250px;
     width: 40%;
+    font-size: 80%;
     margin: auto;
     text-align: center;
 }
@@ -298,7 +308,7 @@ animation-fill-mode: backwards;
 .meditation-card h3 {
     font-family: "Epilogue";
     font-size: 140%;
-    padding: 10px;
+    padding-bottom: 2%;
 }
 
 .meditation-card li {

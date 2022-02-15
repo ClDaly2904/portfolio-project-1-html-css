@@ -314,3 +314,60 @@ animation-fill-mode: backwards;
 .meditation-card li {
     text-align: left;
 }
+
+/* how to meditate section */
+
+#how-meditation {
+    background-color: #f6f4e8;
+    height: 700px;
+    width: 100%;
+    color: #1d3124;
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+}
+
+#how-meditation h3 {
+    font-family: "Epilogue";
+    font-size: 160%;
+    padding-bottom: 2%;
+}
+
+#how-meditation p {
+    font-size: 120%;
+    padding-bottom: 2%;
+}
+
+#how-meditation-wrapper {
+    justify-content: space-evenly;
+    display: flex;
+    margin: auto;
+}
+
+#how-meditation-inner {
+    float: left;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 5%;
+}
+
+#meditation-video {
+    width: 50%;
+    border-radius: 15px;
+    border: 2px solid #1d3124;
+}
+
+#meditation-pose {
+    width: 40%;
+    height: 40%;
+    border-radius: 15px;
+    border: 2px solid #1d3124;
+}
+
+#meditation-steps {
+    margin: auto;
+    padding: 5%;
+    font-size: 100%;
+}

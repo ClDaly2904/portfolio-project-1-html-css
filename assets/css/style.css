@@ -107,7 +107,7 @@ animation-fill-mode: backwards;
     }
 }
 
-#cover-text {
+.cover-text {
         font-size: 140%;
         font-family: Epilogue, sans-serif;
         letter-spacing: 3px;
@@ -126,7 +126,7 @@ animation-fill-mode: backwards;
         border-radius: 15px;
 }
 
-#cover-text, #cover-text h2 {
+.cover-text, .cover-text h2 {
     color: #f6f4e8;
     text-align: center;
 }
@@ -278,26 +278,29 @@ animation-fill-mode: backwards;
     background: url('../images/woman-meditating.jpeg') no-repeat center 70%;
 }
 
-#meditation-cover-text {
-    font-size: 140%;
-    font-family: Epilogue, sans-serif;
-    letter-spacing: 3px;
+/* Intro to meditation section */
 
-    width: 400px;
-    height: 90px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(229, 149, 96, 0.7);
-
-    bottom: 50%;
-    left: 35%;
-    position: absolute;
-    border-radius: 15px;
+#intro-meditation {
+    background-color: #bacec1;
+    height: 300px;
+    width: 100%;
+    color: #1d3124;
+    padding-top: 50px;
 }
 
-#meditation-cover-text, #mediation-cover-text h2 {
-color: #f6f4e8;
-text-align: center;
+.meditation-card {
+    height: 250px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.meditation-card h3 {
+    font-family: "Epilogue";
+    font-size: 140%;
+    padding: 10px;
+}
+
+.meditation-card li {
+    text-align: left;
 }

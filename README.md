@@ -40,5 +40,6 @@ div: hover was only effecting the span and h3 inside it, not the div itself. Nes
     - colourscheme- Shutterstock website https://www.shutterstock.com/blog/color-palettes-for-websites?kw=&c3apidt=71700000083936683&gclsrc=aw.ds&gclid=EAIaIQobChMIp-mb39H19QIVCL_tCh1txAjJEAAYAyAAEgIlwfD_BwE
     - Definitions- formed using Wikipedia.com
     - Benefits of meditation- https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858
+    - How to meditate steps https://www.mindful.org/how-to-meditate/
 - Media
     - Correlation-graph made using Canva

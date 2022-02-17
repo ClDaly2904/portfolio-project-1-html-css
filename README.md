@@ -43,5 +43,5 @@ div: hover was only effecting the span and h3 inside it, not the div itself. Nes
     - How to meditate steps https://www.mindful.org/how-to-meditate/
 - Media
     - Correlation-graph made using Canva
-    - Images found on Unsplash
+    - Images found on Unsplash and Pixabay
     - How to meditate video from Goodful https://www.youtube.com/channel/UCEMArgthHuEtX-04qL_8puQ

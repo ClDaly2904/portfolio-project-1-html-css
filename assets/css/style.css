@@ -252,6 +252,7 @@ animation-fill-mode: backwards;
     height: 85px;
     display: flex;
     justify-content: space-evenly;
+    position: fixeds;
 
     background-color: #1d3124;
     color: #f6f4e8;
@@ -312,7 +313,7 @@ animation-fill-mode: backwards;
 
 .meditation-card h3 {
     font-family: "Epilogue";
-    font-size: 140%;
+    font-size: 160%;
     padding-bottom: 2%;
 }
 
@@ -334,7 +335,7 @@ animation-fill-mode: backwards;
 
 #how-meditation h3 {
     font-family: "Epilogue";
-    font-size: 160%;
+    font-size: 180%;
     padding-bottom: 2%;
 }
 
@@ -360,6 +361,7 @@ animation-fill-mode: backwards;
 
 #meditation-video {
     width: 50%;
+    height: 400px;
     border-radius: 15px;
     border: 2px solid #1d3124;
 }
@@ -379,16 +381,77 @@ animation-fill-mode: backwards;
 
 /* meditation equipment section */
 
-#incense-img-container {
-    height: 200px;
-    width: 200px;
+#what-meditation {
+    background-color: #bacec1;
+    height: 650px;
+    width: 100%;
+    color: #1d3124;
+    padding-top: 5%;
+    text-align: center;
+}
+
+#what-meditation h3 {
+    font-size: 180%;
+    font-family: 'Epilogue', sans-serif;
+    padding-bottom: 2%;
+}
+
+#what-meditation-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#what-meditation-inner {
+    width: 60%;
+    margin: auto;
+}
+
+#what-meditation-inner ul {
+    text-align: left;
+    margin: auto;
+}
+
+#find-meditation {
+    width: 40%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #e59560;
+    border: 2px solid #1d3124;
+    border-radius: 15px;
 }
 
 #incense-img {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
+    margin-right: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
     background: url('../images/monkey_incense.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    border: 2px solid #1d3124;
+    border-radius: 15px;
+}
+
+/* style links for meditation equipment section */
+
+#what-meditation-inner a {
+    font-family: 'Epilogue', sans-serif;
+    color: #1d3124;
+    text-decoration: none;
+}
+
+#what-meditation-inner a:hover {
+    background-color: #e59560;
+    border-radius: 5px;
+}
+
+#find-meditation:hover {
+    background-color: #1d3124;
+    color: #e59560;
+    border-color: #e59560;
 }

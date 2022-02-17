@@ -376,3 +376,19 @@ animation-fill-mode: backwards;
     padding: 3%;
     font-size: 100%;
 }
+
+/* meditation equipment section */
+
+#incense-img-container {
+    height: 200px;
+    width: 200px;
+}
+
+#incense-img {
+    height: 200px;
+    width: 200px;
+    background: url('../images/monkey_incense.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

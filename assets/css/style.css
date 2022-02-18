@@ -75,7 +75,7 @@ h1, h2 {
 
 #sign-up {
     border: 1px solid #1d3124;
-    padding: 10px;
+    padding: 2px;
     border-radius: 10px;
 }
 
@@ -504,3 +504,41 @@ animation-fill-mode: backwards;
     border-radius: 15px;
 }
 
+/* sign-up and contact page */
+
+#signup-hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#signup-hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/signup-hero.jpeg') no-repeat center 92%;
+}
+
+#signup-cover-text {
+    font-size: 140%;
+    font-family: Epilogue, sans-serif;
+    letter-spacing: 3px;
+
+    width: 500px;
+    height: 100px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+    background-color: rgba(229, 149, 96, 0.6);
+    backdrop-filter: blur(5px);
+
+    bottom: 45%;
+    left: 35%;
+    position: absolute;
+    border-radius: 15px;
+}
+#signup-cover-text, #signup-cover-text h2 {
+    color: #f6f4e8;
+    text-align: center;
+}

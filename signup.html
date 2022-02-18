@@ -67,27 +67,27 @@
         <div>
             <h3>Sign up to our monthly newsletter!</h3>
             <p>Sign up to recieve updates on the latest developments in yoga, meditation and how they can improve your body and mind, along with a new yoga pose to try out each month!</p>
-            <div>
+            <div id="form-section-inner">
                 <div id="form-img"></div>
                 <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-                    <label for="fname">First Name</label>
+                    <label for="fname">First Name:</label>
                     <input class="text-input" id="fname" name="first_name" type="text" required>
                     
-                    <label for="lname">Last Name</label>
+                    <label for="lname">Last Name:</label>
                     <input class="text-input" id="lname" name="last_name" type="text" required>
                     
-                    <label for="email">Email Address</label>
+                    <label for="email">Email:</label>
                     <input class="text-input" type="email" id="email" name="email_address" required>
                     
-                    <label>Which of the following are you most interested in?</label></p>
+                    <p>Which of the following are you most interested in?</p> <br>
                     <label for="meditation">Meditation</label>
-                    <input type="radio" id="meditation" name="information_wanted" value="meditation" required>
+                    <input type="radio" id="meditation" name="information_wanted" value="meditation" required class="radio">
                     <label for="yoga-poses">Yoga poses</label>
-                    <input type="radio" id="yoga-poses" name="information_wanted" value="yoga_poses" required>
+                    <input type="radio" id="yoga-poses" name="information_wanted" value="yoga_poses" required class="radio">
                     <label for="general-mindfulness">General mindfulness tips</label>
-                    <input type="radio" id="mindfulness" name="information_wanted" value="mindfulness" required>
+                    <input type="radio" id="mindfulness" name="information_wanted" value="mindfulness" required class="radio"> <br>
                     
-                    <input class="join-button" type="submit" value="Sign me up!">
+                    <input class="signup-button" type="submit" value="Sign me up!">
                 </form>
             </div>
         </div>

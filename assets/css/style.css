@@ -23,7 +23,7 @@ header {
 }
 
 
-h1, h2 {
+h1, h2, h3 {
     font-family: "Epilogue", sans-serif;
 }
 
@@ -92,6 +92,7 @@ h1, h2 {
     height: 500px;
     width: 100%;
     background: url('../images/man-meditating-on-dock.jpg') no-repeat center center;
+    background-size: cover;
 
 /* animates zoom effect on home page */
 
@@ -291,6 +292,7 @@ animation-fill-mode: backwards;
     height: 500px;
     width: 100%;
     background: url('../images/woman-meditating.jpeg') no-repeat center 70%;
+    background-size: cover;
 }
 
 /* Intro to meditation section */
@@ -312,7 +314,6 @@ animation-fill-mode: backwards;
 }
 
 .method-card h3 {
-    font-family: "Epilogue";
     font-size: 160%;
     padding-bottom: 2%;
 }
@@ -334,7 +335,6 @@ animation-fill-mode: backwards;
 }
 
 .how-method h3 {
-    font-family: "Epilogue";
     font-size: 180%;
     padding-bottom: 2%;
 }
@@ -393,7 +393,6 @@ animation-fill-mode: backwards;
 
 #what-meditation h3 {
     font-size: 180%;
-    font-family: 'Epilogue', sans-serif;
     padding-bottom: 2%;
 }
 
@@ -470,7 +469,8 @@ animation-fill-mode: backwards;
 #yoga-hero-image {
     height: 500px;
     width: 100%;
-    background: url('../images/yoga-hero.jpeg') no-repeat center 92%;
+    background: url('../images/yoga-hero.jpeg') no-repeat center 100%;
+    background-size: cover;
 }
 
 /* yoga page - media */
@@ -516,6 +516,7 @@ animation-fill-mode: backwards;
     height: 500px;
     width: 100%;
     background: url('../images/signup-hero.jpeg') no-repeat center 92%;
+    background-size: cover;
 }
 
 #signup-cover-text {
@@ -556,7 +557,6 @@ animation-fill-mode: backwards;
 }
 
 #contact h3 {
-    font-family: "Epilogue";
     font-size: 180%;
     padding-bottom: 2%;
 }
@@ -577,8 +577,83 @@ animation-fill-mode: backwards;
 
 /* sign-up form section */
 
+.form-section {
+    background-color: #f6f4e8;
+    height: 600px;
+    width: 100%;
+    color: #1d3124;
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.form-section h3 {
+    font-size: 180%;
+    padding-bottom: 2%;
+}
+
+#form-section-inner {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
+
 #form-img {
     background: url('../images/signup-class.jpeg') no-repeat center center;
+    background-size: cover;
     width: 400px;
     height: 400px;
+    margin-left: 40px;
+
+    border: 2px solid #1d3124;
+    border-radius: 15px;
+}
+
+/* Style sign-up form */
+
+.signup-form {
+    margin: auto;
+    padding: 40px 20px;
+    background-color: rgba(229, 149, 96, 0.6);
+    color: #1d3124;
+    max-width: 800px;
+
+    border: 2px solid #1d3124;
+    border-radius: 15px;
+}
+
+.text-input {
+    background: #f6f4e8;
+    color: #1d3124;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #1d3124;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    background: #bacec1;
+}
+
+.radio {
+    margin-right: 5%;
+}
+
+.signup-button {
+    font-family: 'Epilogue', sans-serif;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #1d3124;
+    color: #f6f4e8;
+    border-color: #f6f4e8;
+}
+
+.signup-button:hover {
+    background-color: #bacec1;
+    color: #1d3124;
+    border-color: #1d3124;
 }

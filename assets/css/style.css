@@ -455,3 +455,17 @@ animation-fill-mode: backwards;
     color: #e59560;
     border-color: #e59560;
 }
+
+/* Yoga page */
+
+#yoga-hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#yoga-hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/yoga-hero.jpeg') no-repeat center 90%;
+}

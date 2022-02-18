@@ -473,7 +473,7 @@ animation-fill-mode: backwards;
     background: url('../images/yoga-hero.jpeg') no-repeat center 92%;
 }
 
-/* how to do yoga section - media */
+/* yoga page - media */
 
 #yoga-video {
     width: 50%;
@@ -488,3 +488,19 @@ animation-fill-mode: backwards;
     border-radius: 15px;
     border: 2px solid #1d3124;
 }
+
+#yoga-equipment {
+    height: 400px;
+    width: 400px;
+    margin-right: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: url('../images/yoga-equipment.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border: 2px solid #1d3124;
+    border-radius: 15px;
+}
+

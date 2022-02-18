@@ -542,3 +542,33 @@ animation-fill-mode: backwards;
     color: #f6f4e8;
     text-align: center;
 }
+
+#contact {
+    background-color: #bacec1;
+    height: 250px;
+    width: 100%;
+    color: #1d3124;
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+}
+
+#contact h3 {
+    font-family: "Epilogue";
+    font-size: 180%;
+    padding-bottom: 2%;
+}
+
+#contact table {
+    text-align: center;
+    margin: auto;
+}
+
+#contact th {
+    font-family: 'Epilogue', sans-serif;
+    padding-bottom: 2%;
+}
+
+#contact td {
+    padding: 0 50px;
+}

@@ -63,7 +63,35 @@
         </div>
     </section>
 
-    <section>Sign up to newsletter</section>
+    <section class="form-section">
+        <div>
+            <h3>Sign up to our monthly newsletter!</h3>
+            <p>Sign up to recieve updates on the latest developments in yoga, meditation and how they can improve your body and mind, along with a new yoga pose to try out each month!</p>
+            <div>
+                <div id="form-img"></div>
+                <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                    <label for="fname">First Name</label>
+                    <input class="text-input" id="fname" name="first_name" type="text" required>
+                    
+                    <label for="lname">Last Name</label>
+                    <input class="text-input" id="lname" name="last_name" type="text" required>
+                    
+                    <label for="email">Email Address</label>
+                    <input class="text-input" type="email" id="email" name="email_address" required>
+                    
+                    <label>Which of the following are you most interested in?</label></p>
+                    <label for="meditation">Meditation</label>
+                    <input type="radio" id="meditation" name="information_wanted" value="meditation" required>
+                    <label for="yoga-poses">Yoga poses</label>
+                    <input type="radio" id="yoga-poses" name="information_wanted" value="yoga_poses" required>
+                    <label for="general-mindfulness">General mindfulness tips</label>
+                    <input type="radio" id="mindfulness" name="information_wanted" value="mindfulness" required>
+                    
+                    <input class="join-button" type="submit" value="Sign me up!">
+                </form>
+            </div>
+        </div>
+    </section>
 
     <footer class="footer">
         <ul class="social-networks">

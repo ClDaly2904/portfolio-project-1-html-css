@@ -543,6 +543,8 @@ animation-fill-mode: backwards;
     text-align: center;
 }
 
+/* contact section */
+
 #contact {
     background-color: #bacec1;
     height: 250px;
@@ -571,4 +573,12 @@ animation-fill-mode: backwards;
 
 #contact td {
     padding: 0 50px;
+}
+
+/* sign-up form section */
+
+#form-img {
+    background: url('../images/signup-class.jpeg') no-repeat center center;
+    width: 400px;
+    height: 400px;
 }

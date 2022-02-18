@@ -41,6 +41,7 @@ div: hover was only effecting the span and h3 inside it, not the div itself. Nes
     - Definitions- formed using Wikipedia.com
     - Benefits of meditation- https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858
     - How to meditate steps https://www.mindful.org/how-to-meditate/
+    - Benefits of yoga https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga
 - Media
     - Correlation-graph made using Canva
     - Images found on Unsplash and Pixabay

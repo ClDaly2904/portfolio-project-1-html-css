@@ -295,7 +295,7 @@ animation-fill-mode: backwards;
 
 /* Intro to meditation section */
 
-#intro-meditation {
+#intro-method {
     background-color: #bacec1;
     height: 250px;
     width: 100%;
@@ -303,7 +303,7 @@ animation-fill-mode: backwards;
     padding-top: 5%;
 }
 
-.meditation-card {
+.method-card {
     height: 250px;
     width: 40%;
     font-size: 80%;
@@ -311,13 +311,13 @@ animation-fill-mode: backwards;
     text-align: center;
 }
 
-.meditation-card h3 {
+.method-card h3 {
     font-family: "Epilogue";
     font-size: 160%;
     padding-bottom: 2%;
 }
 
-.meditation-card li {
+.method-card li {
     text-align: left;
 }
 
@@ -458,6 +458,8 @@ animation-fill-mode: backwards;
 
 /* Yoga page */
 
+/* hero image */
+
 #yoga-hero-outer {
     height: 500px;
     width: 100%;
@@ -467,5 +469,5 @@ animation-fill-mode: backwards;
 #yoga-hero-image {
     height: 500px;
     width: 100%;
-    background: url('../images/yoga-hero.jpeg') no-repeat center 90%;
+    background: url('../images/yoga-hero.jpeg') no-repeat center 92%;
 }

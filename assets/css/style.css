@@ -323,7 +323,7 @@ animation-fill-mode: backwards;
 
 /* how to meditate section */
 
-#how-meditation {
+.how-method {
     background-color: #f6f4e8;
     height: 700px;
     width: 100%;
@@ -333,24 +333,24 @@ animation-fill-mode: backwards;
     padding-top: 5%;
 }
 
-#how-meditation h3 {
+.how-method h3 {
     font-family: "Epilogue";
     font-size: 180%;
     padding-bottom: 2%;
 }
 
-#how-meditation p {
+.how-method p {
     font-size: 120%;
     padding-bottom: 2%;
 }
 
-#how-meditation-wrapper {
+.how-method-wrapper {
     justify-content: space-evenly;
     display: flex;
     margin: auto;
 }
 
-#how-meditation-inner {
+.how-method-inner {
     float: left;
     margin: auto;
     display: flex;
@@ -373,7 +373,8 @@ animation-fill-mode: backwards;
     border: 2px solid #1d3124;
 }
 
-#meditation-steps {
+.method-steps{
+    width: 40%;
     margin: auto;
     padding: 3%;
     font-size: 100%;
@@ -470,4 +471,20 @@ animation-fill-mode: backwards;
     height: 500px;
     width: 100%;
     background: url('../images/yoga-hero.jpeg') no-repeat center 92%;
+}
+
+/* how to do yoga section - media */
+
+#yoga-video {
+    width: 50%;
+    height: 400px;
+    border-radius: 15px;
+    border: 2px solid #1d3124;
+}
+
+#yoga-pose {
+    width: 40%;
+    height: 40%;
+    border-radius: 15px;
+    border: 2px solid #1d3124;
 }

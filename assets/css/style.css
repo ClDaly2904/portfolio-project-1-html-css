@@ -23,13 +23,18 @@ header {
 }
 
 
-h1, h2, h3 {
+h1, h2 {
     font-family: "Epilogue", sans-serif;
 }
 
+h2 {
+    font-size: 180%;
+    padding-bottom: 2%;
+}
+
 #logo {
-    font-family: "Work Sans", sans-serif;
-    font-size: 160%;
+    font-family: "Epilogue", sans-serif;
+    font-size: 240%;
     font-style: italic;
     letter-spacing: 2px;
 }
@@ -46,11 +51,8 @@ h1, h2, h3 {
 #menu {
      font-size: 130%;
      background-color: #f6f4e8;
-     color: #1d3124
-}
-
-#menu, #logo{
-    line-height: 85px;
+     color: #1d3124;
+     line-height: 85px;
 }
 
 #menu li {
@@ -146,11 +148,6 @@ animation-fill-mode: backwards;
     width: 100%;
     color: #1d3124;
     text-align: center;
-}
-
-#ways-to-release h2 {
-    font-size: 200%;
-    padding-bottom: 5%;
 }
 
 /* meditation and yoga cards */
@@ -315,11 +312,6 @@ animation-fill-mode: backwards;
     text-align: center;
 }
 
-.method-card h3 {
-    font-size: 160%;
-    padding-bottom: 2%;
-}
-
 .method-card li {
     text-align: left;
 }
@@ -335,11 +327,6 @@ animation-fill-mode: backwards;
     text-align: center;
     margin: auto;
     padding-top: 5%;
-}
-
-.how-method h3 {
-    font-size: 180%;
-    padding-bottom: 2%;
 }
 
 .how-method p {
@@ -392,11 +379,6 @@ animation-fill-mode: backwards;
     color: #1d3124;
     padding: 5% 0;
     text-align: center;
-}
-
-.what-method h3 {
-    font-size: 180%;
-    padding-bottom: 2%;
 }
 
 .what-method-wrapper {
@@ -559,11 +541,6 @@ animation-fill-mode: backwards;
     padding-top: 5%;
 }
 
-#contact h3 {
-    font-size: 180%;
-    padding-bottom: 2%;
-}
-
 #contact table {
     text-align: center;
     margin: auto;
@@ -588,11 +565,6 @@ animation-fill-mode: backwards;
     text-align: center;
     margin: auto;
     padding-top: 5%;
-}
-
-.form-section h3 {
-    font-size: 180%;
-    padding-bottom: 2%;
 }
 
 #form-section-inner {

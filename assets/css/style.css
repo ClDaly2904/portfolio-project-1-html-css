@@ -150,6 +150,7 @@ animation-fill-mode: backwards;
 
 #ways-to-release h2 {
     font-size: 200%;
+    padding-bottom: 5%;
 }
 
 /* meditation and yoga cards */
@@ -254,7 +255,6 @@ animation-fill-mode: backwards;
     height: 85px;
     display: flex;
     justify-content: space-evenly;
-    position: fixeds;
 
     background-color: #1d3124;
     color: #f6f4e8;
@@ -298,7 +298,7 @@ animation-fill-mode: backwards;
 
 /* Intro to meditation section */
 
-#intro-method {
+.intro-method {
     background-color: #bacec1;
     height: fit-content;
     padding: 5% 0;
@@ -668,20 +668,28 @@ animation-fill-mode: backwards;
 
 @media screen and (max-width: 1200px) {
 
+    .cover-text {
+        left: 32.5%;
+    }
+
     #form-img {
         flex-shrink: 2;
         margin: 0 2%;
         height: auto;
     }
 
-    .signup-form {
-        flex-shrink: 1;
-    }
-
     .what-method-wrapper {
         flex-wrap: wrap;
         width: 95%;
         margin: auto;
+    }
+
+    .how-method-wrapper {
+        flex-wrap: wrap;
+    }
+    
+    .method-steps {
+        width: 100%;
     }
 
     #incense-img {
@@ -696,10 +704,22 @@ animation-fill-mode: backwards;
 
 
 /* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-/* #intro-method {
-    height: fit-content;
-    padding-top: 5%;
-    padding-bottom: 5%;
-} */
+@media screen and (max-width: 1060px) {
+
+    .cover-text {
+        left: 30%;
+    }
+
+    .card {
+        width: 30%;
+    }
+    
+    #middle-card {
+        width: 20%;
+    }
+
+    #correlation-graph {
+        width: 100%;
+    }
+
 }

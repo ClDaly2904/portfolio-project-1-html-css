@@ -141,7 +141,8 @@ animation-fill-mode: backwards;
 
 #ways-to-release {
     background-color: #bacec1;
-    height: 500px;
+    height: fit-content;
+    padding: 5% 0;
     width: 100%;
     color: #1d3124;
     text-align: center;
@@ -149,7 +150,6 @@ animation-fill-mode: backwards;
 
 #ways-to-release h2 {
     font-size: 200%;
-    padding: 50px
 }
 
 /* meditation and yoga cards */
@@ -197,7 +197,8 @@ animation-fill-mode: backwards;
 
 #newsletter {
     background-color: #f6f4e8;
-    height: 350px;
+    height: fit-content;
+    padding: 5% 0;
     width: 100%;
     color: #1d3124;
     text-align: center;
@@ -299,7 +300,8 @@ animation-fill-mode: backwards;
 
 #intro-method {
     background-color: #bacec1;
-    height: 250px;
+    height: fit-content;
+    padding: 5% 0;
     width: 100%;
     color: #1d3124;
     padding-top: 5%;
@@ -326,7 +328,8 @@ animation-fill-mode: backwards;
 
 .how-method {
     background-color: #f6f4e8;
-    height: 700px;
+    height: fit-content;
+    padding: 5% 0;
     width: 100%;
     color: #1d3124;
     text-align: center;
@@ -382,31 +385,31 @@ animation-fill-mode: backwards;
 
 /* meditation equipment section */
 
-#what-meditation {
+.what-method {
     background-color: #bacec1;
-    height: 650px;
+    height: fit-content;
     width: 100%;
     color: #1d3124;
-    padding-top: 5%;
+    padding: 5% 0;
     text-align: center;
 }
 
-#what-meditation h3 {
+.what-method h3 {
     font-size: 180%;
     padding-bottom: 2%;
 }
 
-#what-meditation-wrapper {
+.what-method-wrapper {
     display: flex;
     justify-content: space-evenly;
 }
 
-#what-meditation-inner {
+.what-method-inner {
     width: 60%;
     margin: auto;
 }
 
-#what-meditation-inner ul {
+.what-method-inner ul {
     text-align: left;
     margin: auto;
 }
@@ -439,13 +442,13 @@ animation-fill-mode: backwards;
 
 /* style links for meditation equipment section */
 
-#what-meditation-inner a {
+.what-method-inner a {
     font-family: 'Epilogue', sans-serif;
     color: #1d3124;
     text-decoration: none;
 }
 
-#what-meditation-inner a:hover {
+.what-method-inner a:hover {
     background-color: #e59560;
     border-radius: 5px;
 }
@@ -656,4 +659,47 @@ animation-fill-mode: backwards;
     background-color: #bacec1;
     color: #1d3124;
     border-color: #1d3124;
+}
+
+/* media queries */
+
+
+/*For larger to medium screen sizes from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+
+    #form-img {
+        flex-shrink: 2;
+        margin: 0 2%;
+        height: auto;
+    }
+
+    .signup-form {
+        flex-shrink: 1;
+    }
+
+    .what-method-wrapper {
+        flex-wrap: wrap;
+        width: 95%;
+        margin: auto;
+    }
+
+    #incense-img {
+        width: 30%;
+    }
+
+    #yoga-equipment {
+        width: 30%;
+    }
+}   
+
+
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+/* #intro-method {
+    height: fit-content;
+    padding-top: 5%;
+    padding-bottom: 5%;
+} */
 }

@@ -754,6 +754,10 @@ animation-fill-mode: backwards;
     #form-img {
         display: none;
     }
+
+    .signup-form {
+        width: 90%;
+    }
 }
 
 /* For medium screen sizes from 700px wide and down */
@@ -819,5 +823,9 @@ animation-fill-mode: backwards;
 
     .card-3 {
         order: 3
+    }
+
+    #contact td {
+        padding: 0 25px;
     }
 }

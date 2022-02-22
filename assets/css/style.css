@@ -126,9 +126,9 @@ animation-fill-mode: backwards;
         background-color: rgba(229, 149, 96, 0.6);
         backdrop-filter: blur(5px);
     
-        bottom: 50%;
-        left: 35%;
-        position: absolute;
+        bottom: 70%;
+        margin: auto;
+        position: relative;
         border-radius: 15px;
 }
 
@@ -516,11 +516,12 @@ animation-fill-mode: backwards;
     background-color: rgba(229, 149, 96, 0.6);
     backdrop-filter: blur(5px);
 
-    bottom: 45%;
-    left: 32%;
-    position: absolute;
+    bottom: 70%;
+    margin: auto;
+    position: relative;
     border-radius: 15px;
 }
+
 #signup-cover-text, #signup-cover-text h2 {
     color: #f6f4e8;
     text-align: center;
@@ -637,10 +638,6 @@ animation-fill-mode: backwards;
 
 @media screen and (max-width: 1200px) {
 
-    .cover-text {
-        left: 32.5%;
-    }
-
     #form-img {
         height: auto;
     }
@@ -675,14 +672,6 @@ animation-fill-mode: backwards;
 
     .header {
         flex-wrap: wrap;
-    }
-
-    .cover-text {
-        left: 30%;
-    }
-
-    #signup-cover-text {
-        left: 20%;
     }
 
     .card {
@@ -742,6 +731,7 @@ animation-fill-mode: backwards;
     
 }
 
+
 /* For medium screen sizes from 750px wide and down */
 @media screen and (max-width: 750px) {
 
@@ -757,16 +747,16 @@ animation-fill-mode: backwards;
 /* For medium screen sizes from 700px wide and down */
 @media screen and (max-width: 700px) {
 
-    #incense-img, #yoga-equipment {
-        height: 250px;
+    #hero-outer, #meditation-hero-outer, #yoga-hero-outer, #signup-hero-outer, #hero-image, #meditation-hero-image, #yoga-hero-image, #signup-hero-image{
+        height: 400px;
     }
 
     .cover-text {
-        left: 17.5%;
+        bottom: 80%;
     }
 
     #signup-cover-text {
-        left: 10%;
+        bottom: 80%;
     }
 
     .card-wrapper {
@@ -821,5 +811,9 @@ animation-fill-mode: backwards;
 
     #contact td {
         padding: 0 25px;
+    }
+
+    #incense-img, #yoga-equipment {
+        height: 250px;
     }
 }

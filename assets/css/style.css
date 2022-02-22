@@ -306,7 +306,7 @@ animation-fill-mode: backwards;
 .method-card {
     height: fit-content;
     width: 40%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: auto;
     text-align: center;
 }
@@ -329,7 +329,6 @@ animation-fill-mode: backwards;
 }
 
 .how-method p {
-    font-size: 1.2rem;
     padding-bottom: 2%;
 }
 
@@ -395,7 +394,7 @@ animation-fill-mode: backwards;
     margin: auto;
 }
 
-#find-meditation {
+.find-method {
     width: 40%;
     margin-top: 40px;
     margin-left: auto;
@@ -787,7 +786,7 @@ animation-fill-mode: backwards;
     }
 
     #woods-meditation-img {
-        padding-bottom: none;
+        padding: 0;
         width: 30%;
     }
 
@@ -815,5 +814,32 @@ animation-fill-mode: backwards;
 
     #incense-img, #yoga-equipment {
         height: 250px;
+    }
+}
+
+/* For medium to small screen sizes from 550px wide and down */
+@media screen and (max-width: 550px) {
+
+    .card {
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .cover-text, #signup-cover-text {
+        padding-top: 20px;
+        height: 80px;
+        width: 350px;
+    }
+
+    #signup-cover-text {
+        height: 90px;
+        padding-top: 10px;
+    }
+
+    .find-method {
+        margin:auto;
     }
 }

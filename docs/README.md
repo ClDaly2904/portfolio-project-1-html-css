@@ -1,7 +1,7 @@
 # Release
 
 ##  About
-Release is a website that hopes to introduce users to two powerful self-improvement techniques; meditation and yoga. The target users for this site will be beginners looking for information about what the benefits of meditation and yoga are, how they can perform these practices at home and prepare them for what equipment they might need. 
+Release is a website that hopes to introduce users to two powerful self-improvement techniques; meditation and yoga. The target users for this site will be beginners searching for information about what the benefits of meditation and yoga are, how they can perform these practices at home and prepare them for what equipment they might need. 
 
 Release will also provide a great starting point for those that wish to go on and adopt meditation and/or yoga by providing them with useful links and materials that can be accessed by users in their own local areas. Users will also have the option of contacting a member of the Release team, or recieving monthly self-improvement and mindfulness tips through the monthly newsletter.
 
@@ -31,7 +31,8 @@ Release will also provide a great starting point for those that wish to go on an
 
 - Future features
     - Would like to add inspirational quotes layered over existing layout to encourage users
-    - Would like to add carousel made up of yoga poses to give users more inspiration
+    - Would like to add carousel made up of yoga poses to give users more inspiration, and encourage users to return to the site
+    - Would like to add a 30-Day Meditation and (or) Yoga tracker/ challenge to enagage users and help them track their progress, as it can take some time for habits to form. People who have committed to something for 30 days are more likely to continue it. 
 
 ## Testing
 
@@ -43,6 +44,8 @@ Release will also provide a great starting point for those that wish to go on an
     - After applying media queries to change the layout of the header at 950px and down, the header then overlapped and covered some of the body content beneath it. I tried altering the positioning of the header to see if any of those styles was causing the bug, but after a little research realised I needed to add a margin to the top of the hero image to 'push' that content further down the page to sit under the header.
 - Hover pseudo class on nav bar
     - Another interesting bug I encountered with the header was when applying the hover effect of an orange background over for the nav links. When clicking back onto the Release home page, part of the orange highlight had overflowed onto a new line. I tried lowering the amount of padding, changing the line height and commented out code to confirm it was the :hover pseudo class causing it. In the end I solved it by changing the h1 element in the header and using a ul and li elements nested inside the nav.
+- Content overflowing div on different screen sizes
+    - Whilst testing the Release site on different screen sizes, I noticed that on smaller screen sizes around 800px wide and lower, the content of the sections/divs began to overflow. I used Google Chrome's dev tools to analyze the styles applied and found that it due to the fact that I had fixed the height of the divs. I came across the fix for this whilst experimenting with different values for the height attribute, where the shortcut for 'height: fit-content' appeared. Once I had applied this style all the sections/divs, I added padding to keep the desired layout and now I have responsive sections that transform for all screen sizes.
 
 
 [//]: #W3C validator- HTML
@@ -60,6 +63,7 @@ Release will also provide a great starting point for those that wish to go on an
     - Benefits of meditation- https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858
     - How to meditate steps https://www.mindful.org/how-to-meditate/
     - Benefits of yoga https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga
+    - Some inspiration taken form The Code Institute 'Love Running' project, so there may be some code similarites. In particular, I used this as a base for my hero image sections and form.
 - Media
     - Correlation-graph made using Canva
     - Images found on Unsplash and Pixabay

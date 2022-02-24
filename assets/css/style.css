@@ -88,7 +88,7 @@ h2 {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url('../images/man-meditating-on-dock.jpg') no-repeat center center;
+    background: url('../images/man-meditating-on-dock.jpeg') no-repeat center center;
     background-size: cover;
 
     display: flex;
@@ -228,7 +228,7 @@ animation-fill-mode: backwards;
 }
 
 #woods-meditation-img {
-    background-image: url(../images/meditation-woods.jpg);
+    background-image: url(../images/meditation-woods.jpeg);
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -409,10 +409,10 @@ animation-fill-mode: backwards;
     height: 400px;
     width: 400px;
     margin: auto;
-    background: url('../images/monkey_incense.jpeg');
+    background: url('../images/monkey-incense.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
 
     border: 2px solid #1d3124;
     border-radius: 15px;

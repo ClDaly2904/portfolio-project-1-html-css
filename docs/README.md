@@ -59,7 +59,7 @@ Release will also provide a great starting point for those that wish to go on an
 
 - Content
     - colourscheme- Shutterstock website https://www.shutterstock.com/blog/color-palettes-for-websites?kw=&c3apidt=71700000083936683&gclsrc=aw.ds&gclid=EAIaIQobChMIp-mb39H19QIVCL_tCh1txAjJEAAYAyAAEgIlwfD_BwE
-    - Definitions- formed using Wikipedia.com
+    - Definitions- formed using Wikipedia.com- https://en.wikipedia.org/wiki/Yoga for yoga, https://en.wikipedia.org/wiki/Meditation for meditation
     - Benefits of meditation- https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858
     - How to meditate steps https://www.mindful.org/how-to-meditate/
     - Benefits of yoga https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga

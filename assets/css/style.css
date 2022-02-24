@@ -329,7 +329,7 @@ animation-fill-mode: backwards;
 }
 
 .how-method p {
-    padding-bottom: 2%;
+    padding: 2% 2% 4% 2%;
 }
 
 .how-method-wrapper {
@@ -530,7 +530,8 @@ animation-fill-mode: backwards;
 
 #contact {
     background-color: #bacec1;
-    height: 250px;
+    height: fit-content;
+    padding: 5% 0;
     width: 100%;
     color: #1d3124;
     text-align: center;
@@ -739,7 +740,7 @@ animation-fill-mode: backwards;
     }
 
     .signup-form {
-        width: 90%;
+        width: 70%;
     }
 }
 
@@ -813,33 +814,171 @@ animation-fill-mode: backwards;
     }
 
     #incense-img, #yoga-equipment {
-        height: 250px;
+        height: 150px;
+    }
+}
+
+/* For medium to small screen sizes from 6000px wide and down */
+@media screen and (max-width: 600px) {
+    
+    .method-steps {
+        padding-left: 6%;
     }
 }
 
 /* For medium to small screen sizes from 550px wide and down */
 @media screen and (max-width: 550px) {
 
+    h2 {
+        font-size: 1.4rem;
+    }
+
     .card {
         height: 150px;
     }
 
-    h2 {
-        font-size: 1.6rem;
-    }
-
-    .cover-text, #signup-cover-text {
+    .cover-text {
         padding-top: 20px;
         height: 80px;
-        width: 350px;
+        width: 250px;
     }
 
     #signup-cover-text {
+        width: 350px;
         height: 90px;
         padding-top: 10px;
     }
 
     .find-method {
         margin:auto;
+        width: 60%;
+    }
+
+    .what-method-inner {
+        width: 100%;
+        padding-left: 2%;
+    }
+
+    #incense-img, #yoga-equipment {
+        width: 50%;
+        margin-top: 4%;
+    }
+
+    #incense-img {
+        background-position: bottom;
+    }
+
+    .card-wrapper p {
+        font-size: 1.2rem;
+        padding: 0 2%;
+    }
+
+    .method-card p {
+        font-size: 1rem;
+    }
+
+    #contact td {
+        padding: 0 5px;
+    }
+
+    .footer {
+        height: fit-content;
+        flex-wrap: wrap;
+        padding-bottom: 2%;
+    }
+
+    .footer ul {
+        width: 100%;
+        padding: 2%;
+    }
+
+
+    /* Rearranges divs in newsletter section on index.html for smaller screen size layout */
+
+    .index-first {
+        order: 1;
+    }
+
+    .index-second {
+        order: 2;
+    }
+
+    .index-third {
+        order: 3;
+    }
+
+    .bottom-card {
+        font-size: 1rem;
+        margin: auto;
+        width: 35%;
+        height: 150px;
+    }
+
+    #woods-meditation-img {
+        width: 50%;
+    }
+
+    #correlation-graph {
+        margin-top: 4%;
+    }
+
+}
+
+/* For small screen sizes from 431px wide and down */
+@media screen and (max-width: 431px) {
+
+    .method-card {
+        width: 100%;
+    }
+
+    .method-card p, ul {
+        padding: 2% 4% 4% 4%;
+    }
+
+    .method-card ul {
+        margin-left: 4%;
+    }
+
+    .how-method-inner {
+        flex-wrap: wrap;
+        padding: 0%;
+    }
+
+    #meditation-video, #yoga-video {
+        width: 80%;
+        margin-bottom: 4%;
+    }
+
+    #contact th {
+        font-size: 1rem;
+    }
+
+    #contact td {
+        padding: 0 1px;
+        font-size: 0.8rem;
+    }
+}
+
+/* For small screen sizes from 375px wide and down */
+@media screen and (max-width: 375px) {
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    #signup-cover-text {
+        width: 250px;
+    }
+
+    #signup-cover-text h1 {
+        font-size: 1.6rem;
+    }
+}
+
+/* For medium to small screen sizes from 354px wide and down */
+@media screen and (max-width: 355px) {
+
+    .form-section {
+        margin-bottom: 30px;
     }
 }

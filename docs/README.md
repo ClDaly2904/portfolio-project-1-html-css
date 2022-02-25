@@ -8,7 +8,7 @@ The target users for this site will be novices searching for inspiration and rel
 
 Release will also provide a great starting point for those that wish to go on and adopt meditation and/or yoga by providing them with useful links and materials that can be accessed by users in their own local areas. Users will also have the option of contacting a member of the Release team, or recieving monthly self-improvement and mindfulness tips through the monthly newsletter.
 
-![picture of site on different screen sizes](am-i-responsive.png)
+![picture of site on different screen sizes](docs-images/am-i-responsive.png)
 
 ### Target audiences
 - Users searching to connect their bodies and minds
@@ -40,29 +40,45 @@ To be able to do all this I will need a site that is clear in its purpose and ca
 ## Features
 
 - ### Nav bar 
-    - the navigation bar is a consistent feature across all pages of the site. It includes links to the Home Page, Meditation page, Yoga page and the Signup page. It is located at the top of each page and is 'sticky' so that the user can intuitively locate and use to easily navigate between pages across all devices no matter how far down their current page they are.
+    - the navigation bar is a consistent feature across all pages of the site. It includes links to the Home Page, Meditation page, Yoga page and the Signup page. It is located at the top of each page and is 'sticky' so that the user can intuitively locate and use to easily navigate between pages across all devices no matter how far down their current page they are. It also has a hover effect so the user can clearly define the links that they can click on.
+    - The navigation bar appears horizonal for larger screen sizes, however for smaller screen sizes it appears vertically to keep its design elements.
+    - The navigation bar features the the large Release text at either the centre (for large screen sizes) or at the top (smaller screen sizes). This text was given key position and designed to stand out as it forms the logo for Release.
+    - The links for meditation, yoga and contact all include relative icons
+    ![Screenshot of large navigation bar](docs-images/large-nav-bar.png)
+    ![Screenshot of small navigation bar](docs-images/small-nav-bar.png)
+
 - ### Hero Images
     - the large hero images serves to grab the user's attention and to set the tone of the site. It demonstrates the type of tranquility and peacefulness that can be found when practicing meditation and yoga and inspires the user to attain the same.
+    ![Screenshot of hero image](docs-images/hero-img-screenshot.png)
+
 - ### Footer 
     - the footer is also a feature on all pages, allowing the user to access Release's Facebook, Twitter and Instagram social media platforms. It also contains an email address for Release, providing an alternate route for users to access contact information without having to navigate to a different page, along with providing copyright information.
+    ![Screenshot of footer](docs-images/footer-screenshot.png)
 
 - ### Home page
-    - Connect section - this section serves to pique the user's curiosity, introduce the user to the two self-improvement techniques focused on in the site and highlight what information they can expect to find in the relevant pages.
+    - Ways to connect section - this section serves to pique the user's curiosity, introduce the user to the two self-improvement techniques focused on in the site and highlight what information they can expect to find in the relevant pages.
+    ![Screenshot of connect section](docs-images/ways-to-connect-screenshot.png)
     - Newsletter and fig section - this section compliments the rest of the homepage by including a data graph to reassure users that the site is a reliable source of information and there are real proven benefits to the self-improvement menthods included. The image demonstrates the state of mindfulness the user may be hoping to achieve. This section also promotes Release's monthly newsletter and what they can expect from it.
+    ![Screenshot of newsletter section](docs-images/index-newsletter-screenshot.png)
 
 - ### Meditation and Yoga pages
     - Intro section - gives the user an understanding of what each method entails and how it can be beneficial to them. This is presented first on the page as they are more likely to carry on reading once they have seen the positive effects both meditation and yoga give.
+    ![Screenshot of meditation introduction section](docs-images/what-meditate-screenshot.png)
     - How to section - gives the user a basic understanding how to undertake the practice and provides resources for further information. The image gives a visual demonstration and the video provides a more immersive experience for the user.
+    ![Screenshot of how to meditate section](docs-images/how-meditate-screenshot.png)
     - Equipment section - allows the user to see what equipment they might need. Links to buy equipment which may make the user excited to have a go at one or both of the practices. Also provides 'at home' alternatives for those who want to try meditation or yoga out before investing. Also has a call to action button to entice the user to find a meditation/yoga group near them, as many people like the social aspect of exercise or are more committed when part of a group.
+    ![Screenshot of meditation equipment section](docs-images/equipment-meditate-screenshot.png)
 
 - ### Contact and Sign-up page
     - Contains varied contact information for Release for users seeking more help or information.
     - The sign-up form not only allows the user to sign up to the monthly newsletter but lets them set preferences for what kind of information they would like to recieve (meditation, yoga or general mindfulness tips), in turn giving feedback to Release to see what area is the most popular. The user will also be asked to submit their full name and email address.
+    ![Screenshot of form from contact page](docs-images/form-screenshot.png)
 
 - ### Future features
     - Would like to add inspirational quotes layered over existing layout to inspire users
     - Would like to add carousel made up of yoga poses to give users more inspiration, and encourage users to return to the site
     - Would like to add a 30-Day Meditation and (or) Yoga tracker/ challenge to enagage users and help them track their progress, as it can take some time for habits to form. People who have committed to something for 30 days are more likely to continue it. 
+
 
 ## Deployment
 
@@ -78,11 +94,12 @@ The live link can be found here - ********************
 ## Credits
 
 - Content
-    - Colourscheme- researched and chosen from a seclection of colour palettes on [Shutterstock](https://www.shutterstock.com/blog/color-palettes-for-websites?kw=&c3apidt=71700000083936683&gclsrc=aw.ds&gclid=EAIaIQobChMIp-mb39H19QIVCL_tCh1txAjJEAAYAyAAEgIlwfD_BwE). The colours chosen combine natural calming tones with an energetic orange to promote a mindful headspace
+    - Colourscheme- researched and chosen from a selection of colour palettes on [Shutterstock](https://www.shutterstock.com/blog/color-palettes-for-websites?kw=&c3apidt=71700000083936683&gclsrc=aw.ds&gclid=EAIaIQobChMIp-mb39H19QIVCL_tCh1txAjJEAAYAyAAEgIlwfD_BwE). The colours chosen combine natural calming tones with an energetic orange to promote a mindful headspace
     - Definitions- formed using Wikipedia.com for [yoga](https://en.wikipedia.org/wiki/Yoga) and [meditation](https://en.wikipedia.org/wiki/Meditation)
     - Benefits of meditation found from the [Mayoclinic website](https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858)
     - How to meditate steps taken from [Mindful](https://www.mindful.org/how-to-meditate/)
     - Benefits of yoga researched from [Hopkins Medicine](https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga)
+    - Icons used from [FontAwesome](https://fontawesome.com/v5/search)
     - Some inspiration taken form The Code Institute 'Love Running' project, so there may be some code similarites. In particular, I used this as a base for my hero image sections and form
 
 - Media

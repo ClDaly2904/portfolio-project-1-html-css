@@ -10,7 +10,10 @@ Release will also provide a great starting point for those that wish to go on an
 
 ![picture of site on different screen sizes](docs-images/am-i-responsive.png)
 
+## Planning
+
 ### Target audiences
+
 - Users searching to connect their bodies and minds
 - Users looking to promote self-improvement who have not heard of the specific methods of meditation and yoga
 - Users who have heard about meditation and/or yoga and wish to know more about how it can help them and how they can do it
@@ -27,15 +30,18 @@ I may also require additional support. I would like the opportunity to reach out
 
 To be able to do all this I will need a site that is clear in its purpose and can be easily navigated. I want to be able to find specific topics easily and be able to navigate them at all times without causing frustration. I will deem my visit to the site successful if I can come away from it feeling like I have gained valuable information and a solid starting point on my journey to self-improvement.
 
-### Site Aims
+### Release's Aims
 
 - To help the user understand their are two great methods of self-improvement- meditation and yoga
-- To encourage the user to explore these different practices
+- To encourage the users to explore these different practices
 - To educate the user as to what these methods are, how they can benefit them and how to do them
 - To provide further resources by giving links to equipment and sites where they can find groups to join
 - To provide a contact information so that the user can reach out if they wish to do so
 - To encourage the user to sign up to receive a monthly newsletter from Release, and be able to give their preference as what they would like to hear about
 
+When planning Release's website, I had to consider how I was going to achieve both the above aims for the user, and for the organisation. This led to the creation of all the features found in the Features section.
+
+### Wireframes
 
 ## Features
 
@@ -43,7 +49,7 @@ To be able to do all this I will need a site that is clear in its purpose and ca
     - the navigation bar is a consistent feature across all pages of the site. It includes links to the Home Page, Meditation page, Yoga page and the Signup page. It is located at the top of each page and is 'sticky' so that the user can intuitively locate and use to easily navigate between pages across all devices no matter how far down their current page they are. It also has a hover effect so the user can clearly define the links that they can click on.
     - The navigation bar appears horizonal for larger screen sizes, however for smaller screen sizes it appears vertically to keep its design elements.
     - The navigation bar features the the large Release text at either the centre (for large screen sizes) or at the top (smaller screen sizes). This text was given key position and designed to stand out as it forms the logo for Release.
-    - The links for meditation, yoga and contact all include relative icons
+    - The links for meditation, yoga and contact all include relative icons to make their functions more easily recognised by users.
     ![Screenshot of large navigation bar](docs-images/large-nav-bar.png)
     ![Screenshot of small navigation bar](docs-images/small-nav-bar.png)
 

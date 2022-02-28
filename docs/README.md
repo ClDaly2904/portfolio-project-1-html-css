@@ -96,7 +96,7 @@ When planning Release's website, I had to consider how I was going to achieve bo
 - ### Future features
     - Would like to add inspirational quotes layered over existing layout to inspire users
     - Would like to add carousel made up of yoga poses to give users more inspiration, and encourage users to return to the site
-    - Would like to add a 30-Day Meditation and (or) Yoga tracker/ challenge to enagage users and help them track their progress, as it can take some time for habits to form. People who have committed to something for 30 days are more likely to continue it. 
+    - Would like to add a 30-Day Meditation and (or) Yoga tracker/ challenge to enagage users and help them track their progress, as it can take some time for habits to form. People who have committed to something for 30 days are more likely to continue it
 
 
 ## Deployment
@@ -120,7 +120,12 @@ The live link can be found here - ********************
     - Benefits of yoga researched from [Hopkins Medicine](https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga)
     - Some inspiration taken form The Code Institute 'Love Running' project, so there may be some code similarites. In particular, I used this as a base for my hero image sections/animation and the sign-up form
     - I found this [Youtube tutorial](https://www.youtube.com/watch?v=H-AmJSMcNfI&ab_channel=Divinector) to help create horizontal version of my navigation bar used for smaller screen sizes, and gave me the inspiration for to use the transition effect on nav:hover on the header
-    - Not used for code but definitely worth a mention for my README.md file, I found the example from a lead student, David Bowers, who had posted a link to [his repository](https://github.com/dnlbowers/modern-buddhism/blob/main/README.md#site-overview) on Slack extremely useful. I used this along the Code Institute [example README.md](https://github.com/Code-Institute-Solutions/readme-template)
+
+- ### General reference
+    - [W3Schools](https://www.w3schools.com/html/)
+    - [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+    - [Stack Overflow](https://stackoverflow.com/)
+    - Not used for code but definitely worth a mention for my README.md file. I found the example from a lead student, David Bowers, who had posted a link to [his repository](https://github.com/dnlbowers/modern-buddhism/blob/main/README.md#site-overview) on Slack extremely useful. I used this along the Code Institute [example README.md](https://github.com/Code-Institute-Solutions/readme-template)
 
 - ### Media
     - Correlation-graph made by me using [Canva](https://www.canva.com/en_gb/)

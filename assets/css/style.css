@@ -99,7 +99,7 @@ h2 {
     display: flex;
     margin: auto;
 
-/* animates zoom effect on home page */
+/* animates zoom effect on home page (hero zoom animation based on Code Institute Love Running Project) */
 
 animation-name: hero-zoom;
 animation-duration: 5s;
@@ -137,7 +137,7 @@ animation-fill-mode: backwards;
         border-radius: 15px;
 }
 
-.cover-text, .cover-text h2 {
+.cover-text, .cover-text h1 {
     color: #f6f4e8;
     text-align: center;
 }
@@ -248,6 +248,13 @@ animation-fill-mode: backwards;
 
     border: 2px solid #1d3124;
     border-radius: 15%;
+}
+
+#caption {
+    width: 300px;
+    display: block;
+    text-align: center;
+    margin-bottom: 2%;
 }
 
 /* footer */
@@ -437,7 +444,7 @@ animation-fill-mode: backwards;
     transition: 0.4s;
 }
 
-#find-meditation:hover {
+.find-method:hover {
     background-color: #1d3124;
     color: #e59560;
     border-color: #e59560;

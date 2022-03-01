@@ -114,7 +114,7 @@ The site was deployed and hosted using GitHub's Pages feature. The steps to depl
 - Once the Main branch has been selected, click save.
 - The page should refresh automatically with a ribbon display to indicate the successful deployment. However, it may take a moment for the site to deploy.
 
-The live link can be found here - ********************
+The live link can be found here - [link to live site](https://cldaly2904.github.io/release-mindfulness-site/)
 
 ## Credits
 

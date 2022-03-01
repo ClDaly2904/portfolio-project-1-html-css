@@ -39,7 +39,7 @@ When I went back to take screenshots of my W3C schools, the site was having issu
 ![Screenshot of Rocket HTML Validator pass](docs-images/rocket-html-validator.webp)
 
 ## Jigsaw CSS Validator
-- No issues detected running through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+- No errors detected running through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 
 ## Lighthouse
 

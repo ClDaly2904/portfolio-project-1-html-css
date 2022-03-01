@@ -93,7 +93,7 @@ h2 {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url('../images/man-docks-webp.webp') no-repeat center center;
+    background: url('../images/docks-hero.webp') no-repeat center center;
     background-color: #1d3124;
     background-size: cover;
 
@@ -958,7 +958,7 @@ animation-fill-mode: backwards;
 
     .how-method-inner {
         flex-wrap: wrap;
-        padding: 0%;
+        padding: 0;
     }
 
     #meditation-video, #yoga-video {

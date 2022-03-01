@@ -3,7 +3,7 @@
 Whilst testing my site, I mainly used a combination of a live server extension (port 800 on Gitpod), and Chrome DevTools.
 I used DevTools to create a responsive site that maintains solid design structure down to a width of 320px, with the last media query necessary at 354px.
 
- To test responsiveness, I also opened the site on the different screen sizes of my iPhone and iPad. This gave me the opportunity to see if the proportions felt natural on these screen sizes and also to test the compatability with Safari, as most of the development was with Chrome.
+To test responsiveness, I also opened the site on the different screen sizes of my iPhone and iPad. This gave me the opportunity to see if the proportions felt natural on these screen sizes and also to test the compatability with Safari, as most of the development was with Chrome.
 
 I sent the link to the site to potential users to test on their devices, including Android and different screen sizes and no issues were flagged up.
 
@@ -33,11 +33,31 @@ When I first ran my completed site through the W3C HTML validator, it flagged up
 - Firstly, I had missed a couple of div closing tags. As I had resused the code from meditation.html for yoga.html, these had copied over, but I was able to identify where the closing tags were required and fix the issue.
 - The validator also flagged up that I had incorrectly used <br> tags, which were not allowed to be nested inside my unordered lists for the "How to" and "What equipment might I need?" sections. For some I simply removed the HTML tags, but my desired outcome for the "How to" instructions was for the second half of the instructions to appear on a new line below the italic writing. After checking W3C Schools, I read that I could instead use <hr> inside my unordered list, so updated the necessary tags and kept my intended design. 
 
+When I went back to take screenshots of my W3C schools, the site was having issues with its server so I then used Rocket Validator for evidence and a [report](https://rocketvalidator.com/s/d25e2f3c-4e0d-4a73-949e-58c58f91f5c8).
+![Screenshot of Rocket HTML Validator pass](docs-images/rocket-html-validator.webp)
+
 ## Jigsaw CSS Validator
-- No issues found
+- No issues detected running through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 
 ## Lighthouse
-- Original lower score for perfomance from using large image files. I used [Tiny.png](https://tinypng.com/) to compress all image files and reduce them in size before re-importing them and checking all of the new filepaths were correct.
+
+Original lower score for perfomance from using large image files. I used [Tiny.png](https://tinypng.com/) to compress all image files and reduce them in size before re-importing them and checking all of the new filepaths were correct. This improved performance scores, but they were still not optimal and the hero image for index.html was causing a particular issue meaning the score for that page was below 90.
+
+Lighthouse suggested the improvement of using more modern file formats than jpegs I was using. I decided to use webp as my research suggested that it was more widely used than avif. However, as not all older browsers support webp images, I decided to only convert decorational images to this format and leave the graph and "how to" demonstration images in the jpeg format as they are essential for user experience. I also added a backup background colour for the hero images so that older browsers could still maintain some styling.
+
+The only other issue thrown up by Lighthouse was to alter some of the text used for links to external pages for better semantic meaning. E.g. I changed shop zafu *here*, to *shop zafu here*.
+
+On the whole the desktop scores scored slightly higher than the mobile scores, but all now pass above a score of 90.
+Below are my final Lighthouse scores for index.html, meditation.html, yoga.html and signup.html using incognito mode in Chrome:
+![Screenshot of Lighthouse for index.html](docs-images/index.html-lighthouse.webp)
+![Screenshot of Lighthouse for meditation.html](docs-images/meditation.html-lighthouse.webp)
+![Screenshot of Lighthouse for yoga.html](docs-images/yoga.html-lighthouse.webp)
+![Screenshot of Lighthouse for signup.html](docs-images/signup.html-lighthouse.webp)
+
+## WAVE
+
+In addition to HTML, CSS and Lighthouse validators, I used the [WebAIM](https://wave.webaim.org/) web accessibility evaluation tool to test the accessibility of my website with no errors or contrast errors showing.
 
 ## Unfixed bugs
+
 - As I was testing and solving issues throughout building Release, by the time of project completion there were no un-fixed bugs that I had found.

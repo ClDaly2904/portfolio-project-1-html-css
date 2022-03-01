@@ -36,7 +36,7 @@ As a user, I am looking to improve myself and my mental wellbeing. I am looking 
 
 I need to come away from the site with a clear understanding of one or more different methods I can do in order to connect to my body and mind and become a better me. I will need to know what things I can do, and what benefits I can expect when using them. As a beginner I will also need materials to help me learn how to do them, such as instructions and demonstrations. I also need to know what, if any, equipment I may use to carry them out.
 
-I may also require additional support. I would like the opportunity to reach out if there is something I do not quite understand or if all my questions haven't been answered, or if there are any communities I can join to help me with this journey. I would also like the option to sign-up to recieve further information, and specify this request to the area that I am most interested in.
+I may also require additional support. I would like the opportunity to reach out if there is something I do not quite understand, if all my questions haven't been answered or if there are any communities I can join to help me with this journey. I would also like the option to sign-up to recieve further information, and specify this request to the area that I am most interested in.
 
 To be able to do all this I will need a site that is clear in its purpose and can be easily navigated. I want to be able to find specific topics easily and be able to navigate them at all times without causing frustration. I will deem my visit to the site successful if I can come away from it feeling like I have gained valuable information and a solid starting point on my journey to self-improvement.
 
@@ -45,8 +45,8 @@ To be able to do all this I will need a site that is clear in its purpose and ca
 - To encourage the users to explore these different practices
 - To educate the user as to what these methods are, how they can benefit them and how to do them
 - To provide further resources by giving links to equipment and sites where they can find groups to join
-- To provide a contact information so that the user can reach out if they wish to do so
-- To encourage the user to sign up to receive a monthly newsletter from Release, and be able to give their preference as what they would like to hear about
+- To provide contact information so that the user can reach out if they wish to do so
+- To encourage the user to sign up to receive a monthly newsletter from Release, and be able to give their preference as   to what they would like to hear about
 
 When planning Release's website, I had to consider how I was going to achieve both the above aims for the user, and for the organisation. This led to the creation of all the features found in the Features section.
 
@@ -54,14 +54,14 @@ When planning Release's website, I had to consider how I was going to achieve bo
 
 - ### Nav bar 
     - the navigation bar is a consistent feature across all pages of the site. It includes links to the Home Page, Meditation page, Yoga page and the Signup page. It is located at the top of each page and is 'sticky' so that the user can intuitively locate and use to easily navigate between pages across all devices no matter how far down their current page they are. The hover effect used allows the user to clearly define the links that they can click on with a transition effect (credited in Credits section). Additionally, the active class means that visitors to the site can easily work out which page they are currently on.
-    - The navigation bar appears horizonal for larger screen sizes, however for smaller screen sizes it appears vertically to keep its design elements.
+    - The navigation bar appears horizontal for larger screen sizes, however for smaller screen sizes it appears vertically to keep its design elements.
     - The navigation bar features the the large Release text at either the centre (for large screen sizes) or at the top (smaller screen sizes). This text was given key position and designed to stand out as it forms the logo for Release.
     - The links for meditation, yoga and contact all include relative icons to make their functions more easily recognised by users.
     ![Screenshot of large navigation bar](docs-images/large-nav-bar.png)
     ![Screenshot of small navigation bar](docs-images/small-nav-bar.png)
 
 - ### Hero Images
-    - The large hero images serve to grab the user's attention and to set the tone of the site. They demonstrates the type of tranquility and peacefulness that can be found when practicing meditation and yoga and inspires the user to attain the same. The hero image on the Release homepage also contains a zoom animation for effect.
+    - The large hero images serve to grab the user's attention and to set the tone of the site. They demonstrate the type of tranquility and peacefulness that can be found when practicing meditation and yoga and inspires the user to attain the same. The hero image on the Release homepage also contains a zoom animation for effect.
     ![Screenshot of hero image](docs-images/hero-img-screenshot.png)
 
 - ### Footer 
@@ -69,7 +69,8 @@ When planning Release's website, I had to consider how I was going to achieve bo
     ![Screenshot of footer](docs-images/footer-screenshot.png)
 
 - ### Home page
-    - Ways to connect section - this section serves to pique the user's curiosity, introduce the user to the two self-improvement techniques focused on in the site and highlight what information they can expect to find in the relevant pages.
+    - Ways to connect section - this section serves to pique the user's curiosity, introduce the user to the two self-improvement techniques focused on in the site and highlight what information they can expect to find in the Meditation and Yoga pages.
+    The two large cards also link to the relevant pages and contain the same icons used in the header for consistency. The orange nav hover clearly indicates that they are clickable and is consistent with the nav hover effects across the site.
     ![Screenshot of connect section](docs-images/ways-to-connect-screenshot.png)
     - Newsletter and graph section - this section compliments the rest of the homepage by including a data graph to reassure users that the site is a reliable source of information and there are real proven benefits to the self-improvement menthods included. The image demonstrates the state of mindfulness the user may be hoping to achieve. This section also promotes Release's monthly newsletter and what they can expect from it.
     ![Screenshot of newsletter section](docs-images/index-newsletter-screenshot.png)
@@ -97,7 +98,7 @@ When planning Release's website, I had to consider how I was going to achieve bo
 
 Before building my site in Gitpod, I took all of the features I thought to be in scope and combined these with my design ideas to create wireframes in Balsamiq.
 
-For the most part I was able to stay true to these wireframe plans, however there was a couple of deviations. In signup.html for smaller screen sizes, instead of moving the  image to the bottom of the page as per the wireframe, I decided in testing to omit the signup-class image. I felt that this gave better focus to the form itself.
+For the most part I was able to stay true to these wireframe plans, however there were a couple of deviations. In signup.html for smaller screen sizes, instead of moving the image to the bottom of the page as per the wireframe, I decided in testing to omit the signup-class image. I felt that this gave better focus to the form itself.
 
 - [Index.html wireframe](wireframes/index.html-wireframe-tiny.jpg)
 - [Meditation.html wireframe](wireframes/meditation.html-wireframe-tiny.jpg)

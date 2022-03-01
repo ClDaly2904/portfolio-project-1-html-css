@@ -25,7 +25,6 @@ I used my chosen four colours across the site to provide consistency for the use
 ![Screenshot of singular colour check for active class on header](docs-images/active-contrast.png)
 
 ### Target audiences
-
 - Users searching to connect their bodies and minds
 - Users looking to promote self-improvement who have not heard of the specific methods of meditation and yoga
 - Users who have heard about meditation and/or yoga and wish to know more about how it can help them and how they can do it
@@ -33,7 +32,6 @@ I used my chosen four colours across the site to provide consistency for the use
 - Although a large bulk of visitors will be first-time visitors using Release as a base, returning visitors can benefit from the demonstration resources or equipment links to strengthen their existing practice
 
 ### User Stories
-
 As a user, I am looking to improve myself and my mental wellbeing. I am looking for a reliable site that can teach me how I can do this.
 
 I need to come away from the site with a clear understanding of one or more different methods I can do in order to connect to my body and mind and become a better me. I will need to know what things I can do, and what benefits I can expect when using them. As a beginner I will also need materials to help me learn how to do them, such as instructions and demonstrations. I also need to know what, if any, equipment I may use to carry them out.
@@ -43,7 +41,6 @@ I may also require additional support. I would like the opportunity to reach out
 To be able to do all this I will need a site that is clear in its purpose and can be easily navigated. I want to be able to find specific topics easily and be able to navigate them at all times without causing frustration. I will deem my visit to the site successful if I can come away from it feeling like I have gained valuable information and a solid starting point on my journey to self-improvement.
 
 ### Release's Aims
-
 - To help the user understand their are two great methods of self-improvement- meditation and yoga
 - To encourage the users to explore these different practices
 - To educate the user as to what these methods are, how they can benefit them and how to do them
@@ -52,8 +49,6 @@ To be able to do all this I will need a site that is clear in its purpose and ca
 - To encourage the user to sign up to receive a monthly newsletter from Release, and be able to give their preference as what they would like to hear about
 
 When planning Release's website, I had to consider how I was going to achieve both the above aims for the user, and for the organisation. This led to the creation of all the features found in the Features section.
-
-### Wireframes
 
 ## Features
 
@@ -82,7 +77,7 @@ When planning Release's website, I had to consider how I was going to achieve bo
 - ### Meditation and Yoga pages
     - Intro section - gives the user an understanding of what each method entails and how it can be beneficial to them. This is presented first on the page as they are more likely to carry on reading once they have seen the positive effects both meditation and yoga give.
     ![Screenshot of meditation introduction section](docs-images/what-meditate-screenshot.png)
-    - How to section - gives the user a basic understanding how to undertake the practice and provides resources for further information. The image gives a visual demonstration and the video provides a more immersive experience for the user (does not autoplay as per best practice)
+    - How to section - gives the user a basic understanding of how to undertake the practice and provides resources for further information. The image gives a visual demonstration and the video provides a more immersive experience for the user (does not autoplay as per best practice)
     ![Screenshot of how to meditate section](docs-images/how-meditate-screenshot.png)
     - Equipment section - allows the user to see what equipment they might need. Links to buy equipment which may make the user excited to have a go at one or both of the practices. Also provides 'at home' alternatives for those who want to try meditation or yoga out before investing. Also has a call to action button to entice the user to find a meditation/yoga group near them, as many people like the social aspect of exercise or are more committed when part of a group.
     ![Screenshot of meditation equipment section](docs-images/equipment-meditate-screenshot.png)
@@ -98,6 +93,16 @@ When planning Release's website, I had to consider how I was going to achieve bo
     - Would like to add carousel made up of yoga poses to give users more inspiration, and encourage users to return to the site
     - Would like to add a 30-Day Meditation and (or) Yoga tracker/ challenge to enagage users and help them track their progress, as it can take some time for habits to form. People who have committed to something for 30 days are more likely to continue it
 
+## Wireframes
+
+Before building my site in Gitpod, I took all of the features I thought to be in scope and combined these with my design ideas to create wireframes in Balsamiq.
+
+For the most part I was able to stay true to these wireframe plans, however there was a couple of deviations. In signup.html for smaller screen sizes, instead of moving the  image to the bottom of the page as per the wireframe, I decided in testing to omit the signup-class image. I felt that this gave better focus to the form itself.
+
+- [Index.html wireframe](wireframes/index.html-wireframe-tiny.jpg)
+- [Meditation.html wireframe](wireframes/meditation.html-wireframe-tiny.jpg)
+- [Yoga.html wireframe](wireframes/yoga-wireframe-tiny.jpeg)
+- [Signup.html wireframe](wireframes/signup.html-wireframe-tiny.jpg)
 
 ## Deployment
 
@@ -120,6 +125,7 @@ The live link can be found here - ********************
     - Benefits of yoga researched from [Hopkins Medicine](https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga)
     - Some inspiration taken form The Code Institute 'Love Running' project, so there may be some code similarites. In particular, I used this as a base for my hero image sections/animation and the sign-up form
     - I found this [Youtube tutorial](https://www.youtube.com/watch?v=H-AmJSMcNfI&ab_channel=Divinector) to help create horizontal version of my navigation bar used for smaller screen sizes, and gave me the inspiration for to use the transition effect on nav:hover on the header
+    - I looked at popular mindfulness site such as [Calm](https://www.calm.com/) for inspiration for the design of my site before adding my own spin
 
 - ### General reference
     - [W3Schools](https://www.w3schools.com/html/)
